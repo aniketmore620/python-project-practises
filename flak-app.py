@@ -7,7 +7,7 @@ import json
 @app.route("/createJIRA", methods=['POST'])
 def createJIRA():
 
-    url = "https://moreaniket620.atlassian.net/rest/api/3/project"
+    url = "enter-jira-url/rest/api/3/project"
 
     API_TOKEN="enter apt token of jira"
     auth = HTTPBasicAuth("moreaniket620@gmail.com", API_TOKEN)
